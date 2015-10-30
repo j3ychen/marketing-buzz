@@ -13,3 +13,6 @@ function makePhrase() {
   var phraseElement = document.getElementById("phrase");
   phraseElement.innerHTML = phrase;
 }
+
+window.onload = init;
+window.onload = makePhrase;
