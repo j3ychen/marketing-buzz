@@ -14,5 +14,4 @@ function makePhrase() {
   phraseElement.innerHTML = phrase;
 }
 
-window.onload = init;
 window.onload = makePhrase;
