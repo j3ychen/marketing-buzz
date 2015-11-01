@@ -1,5 +1,5 @@
 function makePhrase() {
-  var words1 = ["Let's", "It's time to", "Our mission is to"];
+  var words1 = ["Let's", "It's time to", "We have to"];
   var words2 = ["synergize", "revolutionize", "re-think", "streamline", "optimize", "disrupt"];
   var words3 = ["win-win", "vertical-horizontal", "sustainability", "big data"];
   var words4 = ["paradigm", "strategy", "vision", "process", "potential", "algorithm", "framework"];
