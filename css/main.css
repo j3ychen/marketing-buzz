@@ -14,7 +14,15 @@ h1 span {
 }
 
 #phrase {
+  margin-top:100px;
   font-size:250%;
+}
+
+#readme {
+  margin:10px 50px;
+  padding:10px;
+  border-style:solid;
+  font-size:125%;
 }
 
 .footer {
