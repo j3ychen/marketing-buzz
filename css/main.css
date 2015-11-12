@@ -2,20 +2,28 @@ body {
     font-family:georgia;
     background-color:beige;
     padding:5px;
+    text-align:center;
 }
 
 h1 {
-    color:navy;
+    color:green;
 }
 
 h1 span {
-    color:red;
+    color:navy;
 }
 
-a:link {
-    text-decoration:none;
-    color:inherit;
+#phrase {
+  font-size:250%;
 }
+
+.footer {
+  position:fixed;
+  bottom:0px;
+  width:100%;
+  text-align: center;
+}
+
 a:visited {
     text-decoration:none;
     color:inherit;
