@@ -1,8 +1,8 @@
 function makePhrase() {
   var words1 = ["Let's", "It's time to", "We have to"];
-  var words2 = ["synergize", "revolutionize", "re-think", "streamline", "optimize", "disrupt", "pinpoint", "re-define", "leverage", "re-invent", "scale", "monetize"];
-  var words3 = ["win-win", "vertical-horizontal", "sustainability", "big data", "innovation", "ideation", "growth", "glocalization", "go-to-market", "value-add", "empowerment", "diversity"];
-  var words4 = ["paradigm", "strategy", "vision", "process", "potential", "algorithm", "framework", "bandwidth", "ecosystem", "culture"];
+  var words2 = ["synergize", "revolutionize", "re-think", "streamline", "optimize", "disrupt", "pinpoint", "re-define", "leverage", "re-invent", "scale", "monetize", "re-imagine"];
+  var words3 = ["win-win", "vertical-horizontal", "sustainability", "big data", "innovation", "ideation", "growth", "glocalization", "go-to-market", "value-add", "empowerment", "upcycling"];
+  var words4 = ["paradigm", "strategy", "vision", "process", "potential", "algorithm", "framework", "bandwidth", "ecosystem", "culture", "infrastructure"];
 
   var rand1 = Math.floor(Math.random() * words1.length);
   var rand2 = Math.floor(Math.random() * words2.length);
