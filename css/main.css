@@ -14,7 +14,7 @@ h1 span {
 }
 
 #phrase {
-  margin-top:100px;
+  margin:100px 0px 275px 0px;
   font-size:250%;
 }
 
@@ -26,7 +26,6 @@ h1 span {
 }
 
 .footer {
-  position:fixed;
   bottom:0px;
   width:100%;
   text-align: center;
