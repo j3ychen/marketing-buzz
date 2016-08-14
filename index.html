@@ -14,7 +14,7 @@
   <h1>Buzzphra$e <span>Babbler</span></h1>
   <button class="btn btn-primary" type="submit" onclick="javascript:makePhrase()">Babble</button><br/>
   <div ng-app="myApp" ng-controller="myCtrl">
-    <p id="phrase"><span id="w1"></span> <span id="w2"></span> our <span id="w3" ng-click="generate('w3')"></span> <span id="w4" ng-click="generate('w4')"></span>.</p>
+    <p id="phrase"><span id="w1"></span> <span id="w2" ng-mouseover="highlight()" ng-click="generate('w2')">{{w2}}</span> our <span id="w3" ng-mouseover="highlight()" ng-click="generate('w3')">{{w3}}</span> <span id="w4" ng-mouseover="highlight()" ng-click="generate('w4')">{{w4}}</span>.</p>
   </div>
   <div class="footer">
     <p id="readme">Many of us work in a corporate environment where sounding intelligent is just as important as producing real results. Whether you are drafting a motivating speech at the water cooler or a few one-liners at the next board meeting, Buzzphrase Babbler has you covered. Enjoy!</h2>
