@@ -9,9 +9,17 @@ function makePhrase() {
   var rand3 = Math.floor(Math.random() * words3.length);
   var rand4 = Math.floor(Math.random() * words4.length);
 
-  var phrase = words1[rand1] + " " + words2[rand2] + " our " + words3[rand3] + " " + words4[rand4] + ".";
-  var phraseElement = document.getElementById("phrase");
-  phraseElement.innerHTML = phrase;
+//  var phrase = words1[rand1] + " " + words2[rand2] + " our " + words3[rand3] + " " + words4[rand4] + ".";
+//  var phraseElement = document.getElementById("phrase");
+  var w1 = document.getElementById("w1");
+  var w2 = document.getElementById("w2");
+  var w3 = document.getElementById("w3");
+  var w4 = document.getElementById("w4");
+//  phraseElement.innerHTML = phrase;
+  w1.innerHTML = words1[rand1];
+  w2.innerHTML = words2[rand2];
+  w3.innerHTML = words3[rand3];
+  w4.innerHTML = words4[rand4];
 }
 
 window.onload = makePhrase;
