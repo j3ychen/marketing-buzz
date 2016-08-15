@@ -14,7 +14,4 @@ app.controller('myCtrl', function($scope) {
     		keepW4();
     	}
     }
-    $scope.highlight = function() {
-    	$scope.w2 = {color: red};
-    }
 });

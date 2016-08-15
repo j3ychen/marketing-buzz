@@ -19,6 +19,18 @@ h1 span {
   font-size:250%;
 }
 
+#w2:hover {
+  color:red;
+}
+
+#w3:hover {
+  color:red;
+}
+
+#w4:hover {
+  color:red;
+}
+
 #readme {
   margin:10px 50px;
   padding:10px;
