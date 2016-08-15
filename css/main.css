@@ -3,6 +3,7 @@ body {
     background-color:beige;
     padding:5px;
     text-align:center;
+    cursor:default;
 }
 
 h1 {
